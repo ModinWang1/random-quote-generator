@@ -1,38 +1,85 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
+  background-color: aliceblue;
+  font-family: sans-serif;
+  
+}
+
+#new-quote {
+  position: absolute;
+  left: 5%;
+  bottom: 5%;
+  background-color: aliceblue;
+  border: 0px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 10px;
+  font-size: 14px;
+  font-family: "Century Gothic";
+}
+
+
+
+
+#tweet-quote {
+  font-family: "Century Gothic";
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 15px;
+  color: black;
+  background-color: aliceblue;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  right: 5%;
+  bottom: 5%;
+  text-decoration: none;
+}
+#tweet-quote:visited {
+  background-color: aliceblue;
+  cursor: pointer;
+  color: black;
+  font-size: 14px;
+}
+
+#tweet-quote:hover {
+  background-color: royalblue;
+
+}
+
+#new-quote:hover {
+  background-color: royalblue;
+}
 .App {
+  border-radius: 15px;
   text-align: center;
+  width: 50%;
+  height:60%; 
+  background-color: white;  
+  position: absolute;
+  top: 20%;
+  left: 25%;
+
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#quote-box {
+  font-family: "Century Gothic";
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#text {
+  padding: 15px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.Modin {
+  font-family: "Century Gothic";
+  position: absolute;
+  left: 44%;
+  top: 110%;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
